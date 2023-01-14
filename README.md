@@ -5,9 +5,9 @@ Please read the latest release available.
 
 The definition is written in these languages:
 
- * English
+ * [English](/en/SUMMARY.md)
 
- * Ukrainian
+ * [Ukrainian](/ua/SUMMARY.md)
 
 ## Releases
 
@@ -39,4 +39,4 @@ If your implementation doesn't fully match the original definition, let the user
 
 Implementation | Category | Description
 -------------- | -------- | -----------
-[ReCK](https://github.com/psycoder-x/ckc) | Compiler | CK compiler that written in CK
+[ReCK](https://github.com/psycoder-x/reck) | Compiler | CK compiler that written in CK
