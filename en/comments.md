@@ -1,7 +1,7 @@
 # Comments
 
 Comments serve as a sort of in-code documentation.
-When inserted into a program, they are effectively ignored by the implementation;
+When inserted into a code, they are effectively ignored by the implementation;
 they are solely intended to be used as notes by the humans that read source code.
 
 ## Syntax
