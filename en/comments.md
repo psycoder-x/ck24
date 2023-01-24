@@ -6,9 +6,12 @@ they are solely intended to be used as notes by the humans that read source code
 
 ## Syntax
 
-```
-/: comment :/
-```
+`/: comment :/` (1)
+
+`/:/` (2)
+
+ 1) "multi-line" comment also known as "C-style" comment.
+ 2) "triplet" comment also known as "stupid" comment.
 
 All comments are removed from the code by the lexer before the preprocessor.
 
@@ -22,6 +25,15 @@ Multi-line comments tell the implementation to ignore all content between `/:` a
 Except within a character constant, a string literal, or a comment, the characters `/:` introduce a comment.
 Multi-line comments cannot be nested.
 
+## Triplet
+
+Triplet comments are usually used to comment nothing.
+To insert a triplet comment, simply write `/:/`.
+The triplet comment is a shorter version of the empty multi-line comment `/::/`.
+
+Except within a character constant, a string literal, or a comment, the characters `/:/` is a comment.
+Triplet comments cannot be nested.
+
 ## Example
 
 ```
@@ -31,4 +43,10 @@ multiple lines.
 :/
  
 /: Or, just one line. :/
+
+/:----------------------------------------------------------------:/
+
+/::/
+
+/:/
 ```
